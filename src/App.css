@@ -1,0 +1,59 @@
+/* Add styles for App component here */
+
+.App {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Added */
+  justify-content: center; /* Added */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Added */
+  width: 200px; /* Added */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+
+/* Add styles for buttons and news items */
+
+/* Button hover effect */
+.navbar-nav .nav-link:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* News item hover effect */
+.news-item:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* Rounded edges for buttons and news items */
+.navbar-nav .nav-link,
+.news-item {
+  border-radius: 5px;
+}
+/* Add styles for the navbar */
+
